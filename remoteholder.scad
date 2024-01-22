@@ -7,7 +7,7 @@
 // wall. The remote is of a very standard shape that comes with these
 // lightings https://www.amazon.ca/dp/B0BRQ4Q69M 
 //
-// Language: OpenSCAD code (https://openscad.org/)
+// Language: OpenSCAD (https://openscad.org/)
 //
 // Author: Carol Gauthier
 //         https://github.com/carolg
