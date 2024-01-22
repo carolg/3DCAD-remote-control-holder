@@ -1,9 +1,10 @@
-3D CAD Remote control holder
+3D CAD
+Remote control holder
  
 Description:
 CAD basic design for a light remote control holder to be screwed on the 
 wall. The remote is of a very standard shape that comes with these
-lightings https://www.amazon.ca/dp/B0BRQ4Q69M 
+ceiling lights https://www.amazon.ca/dp/B0BRQ4Q69M 
 
 Language: OpenSCAD (https://openscad.org/)
 
