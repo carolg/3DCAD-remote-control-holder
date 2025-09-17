@@ -1,0 +1,47 @@
+<table style='border-spacing:0; font-family:helvetica,arial,sans-serif' ><thead style='margin:0; padding:7px 20px 7px 0px; border-bottom:1px solid #eee; text-align:left; color:#888; font-weight:normal' ><tr><th>output</th></tr></thead><tbody><tr  ><td style='margin:0; padding:7px 20px 7px 0px; border-bottom:1px solid #eee' >You're referring to the `Object.keys()` method in JavaScript!
+
+`Object.keys()` returns an array of a given object's own enumerable property names.
+
+Here are some common parameters and examples:
+
+### Parameters
+
+*   `obj`: The object from which to get the property names.
+*   Optional: `en` (short for "enumerable") - If set to `false`, it will return only non-enumerable properties. Default is `true`.
+
+### Examples
+
+```javascript
+// Create an example object
+const person = {
+  name: 'John Doe',
+  age: 30,
+  occupation: 'Developer'
+};
+
+// Get all property names (enumerable)
+console.log(Object.keys(person)); // Output: ['name', 'age', 'occupation']
+
+// Get non-enumerable properties (if you set the parameter to false)
+console.log(Object.keys(person, false)); // Output: []
+
+// Create another object
+const person2 = {
+  constructor: 'function',
+  prototype: null,
+};
+
+console.log(Object.keys(person2)); // Output: ['constructor', 'prototype']
+```
+
+Note that `Object.keys()` only returns property names, not the values. If you need both property names and values, use `Object.entries()` or `for...in` loop instead.
+
+```javascript
+// Get all property names and values (enumerable)
+console.log(Object.entries(person)); // Output: [["name", "John Doe"], ["age", 30], ["occupation", "Developer"]]
+
+// For non-enumerable properties:
+for (const key in person2) {
+  console.log(`${key}: ${person2[key]}`);
+}
+```</td></tr></tbody></table>
